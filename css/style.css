@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #312f2f; }
+
+body {
+  background-color: #ededed; }
+
+nav {
+  background-color: #a47c56;
+  padding-left: 2rem;
+  text-decoration: none; }
+  nav header nav .flexMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px 40px 10px 40px 40px;
+    font-size: 1.2rem; }
+  nav .flexMenu li a {
+    color: white;
+    padding: 20px; }
+  nav .flexMenu li a:hover {
+    background-color: white;
+    color: #804900;
+    padding: 20px; }
+  nav header h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center; }
+
+.container {
+  margin: 0%; }
+  .container .main__section {
+    padding: 2rem; }
+    .container .main__section .section__features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 2rem; }
+      .container .main__section .section__features .features__title {
+        min-width: 100%;
+        text-align: center;
+        margin-bottom: 0.4rem;
+        color: rgba(235, 182, 132, 0.705); }
+      .container .main__section .section__features .feature {
+        background: #fbfaf9;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main__section .section__features .feature .feature__text {
+          padding: 1rem; }
+        .container .main__section .section__features .feature input {
+          margin: 5px;
+          padding: 6px 15px 6px 15px;
+          background-color: rgba(235, 182, 132, 0.705);
+          border-radius: 8px;
+          font-size: 0.875rem;
+          margin-bottom: 1rem;
+          border-color: rgba(235, 182, 132, 0.705); }
+  .container .main__proyect .proyect__title {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    color: rgba(235, 182, 132, 0.705); }
+  .container .main__proyect .carrusel__todo {
+    margin-top: 3rem; }
+  .container .main__nosotros .nosotros__title {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    color: rgba(235, 182, 132, 0.705);
+    margin-top: 2rem; }
+  .container .main__nosotros .nosotros__text {
+    text-align: center;
+    padding-top: 2rem; }
+
+.Seccion2 {
+  background-color: rgba(233, 185, 139, 0.445); }
+  .Seccion2 h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    color: #252021;
+    padding: 5rem 1rem 2rem 1rem; }
+    .Seccion2 h1 .animacion {
+      animation-duration: 5s;
+      animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .Seccion2 .subtitulo {
+    text-align: center;
+    letter-spacing: 1rem;
+    color: #252021;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 3rem; }
